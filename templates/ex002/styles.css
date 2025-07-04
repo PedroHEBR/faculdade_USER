@@ -1,3 +1,4 @@
+/* configs das tags*/
 body {
     height: 98vh;
     background-color: #222831;
@@ -23,7 +24,9 @@ h1, label {
 label {
     font-weight: 600;
 }
+/* configs das tags*/
 
+/* configs do wrapper (envolucro) do formulário */
 .formWrapper {
     display: flex;
     justify-content: center;
@@ -36,6 +39,7 @@ label {
     min-width: 450px;
 }    
 
+/* config dos inputs */
 .inputWrapper {
     display: flex;
     flex-direction: column;
@@ -49,6 +53,7 @@ label {
     margin-left: 4px;
 }
 
+/* configs do input (item) */
 .inputWrapper input {
     outline: none;
     border: 1px solid #0000;
@@ -57,10 +62,12 @@ label {
     transition: .3s ease-in-out;
 }
 
+/* config de efeito de foco */
 .inputWrapper input:focus {
     box-shadow: 5px 5px 7px 2px #00000026;
 }
 
+/* botão. (cadastro) */
 .btnCadastro {
     padding: 8px 22px;
     background-color: #00000000;
@@ -72,12 +79,14 @@ label {
     transition: .3s ease-in-out;
 }
 
+/* efeito de hover e pá */
 .btnCadastro:hover {
     padding: 8px 32px;
     color: #EEEEEE;
     background-color: #00ADB5;
 }
 
+/* leve config da âncora */
 .anchorItem {
     margin: 6px 0px;
     color: #EEEEEE;

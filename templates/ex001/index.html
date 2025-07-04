@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Bem-vindo!</title>
+    <!-- linkando Google Fonts (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main> 
+        <!-- wrapper (envolucro) principal -->
         <form class="formWrapper">
             <h1>Login</h1>
+            <!-- classe login -->
             <div class="inputWrapper">
+                <!-- coisas de input de login -->
                 <label for="nome">Nome</label>
                 <input type="text" placeholder="Digite o seu nome" id="nome">
             </div>
+            <!-- wrapper (envolucro) da seção senha -->
             <div class="inputWrapper">
+                <!-- classe senha -->
                 <label for="senha">Senha</label>
                 <input type="password" placeholder="Digite a sua senha" id="senha">
             </div>
+            <!-- botão. -->
             <button type="button" class="btnLogin">Entrar</button>
+            <!-- âncora para a página de cadastro (caso não tenha conta) -->
             <a class="anchorItem" href="../ex002/index.html">Ainda não possui uma conta? Cadastre-se!</a>
         </form>
-    </main>
-    
+    </main> 
 </body>
 </html>
