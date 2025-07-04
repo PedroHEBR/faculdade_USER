@@ -1,0 +1,84 @@
+body {
+    height: 98vh;
+    background-color: #222831;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}    
+
+h1 {
+    font-size: 42px;
+}
+
+h1, label {
+    color: #EEEEEE;
+}
+
+label {
+    font-weight: 600;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6c7585;
+    border-radius: 12px;
+    box-shadow: 7px 7px 6px 4px #0000001f;
+    padding: 6px 12px;
+    min-width: 450px;
+}    
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    margin-bottom: 12px;
+}    
+
+.inputWrapper label {
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.inputWrapper input {
+    outline: none;
+    border: 1px solid #0000;
+    padding: 6px 0px 6px 6px;
+    border-radius: 8px;
+    transition: .3s ease-in-out;
+}
+
+.inputWrapper input:focus {
+    box-shadow: 5px 5px 7px 2px #00000026;
+}
+
+.btnCadastro {
+    padding: 8px 22px;
+    background-color: #00000000;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #00ADB5;
+    color: #00ADB5;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+.btnCadastro:hover {
+    padding: 8px 32px;
+    color: #EEEEEE;
+    background-color: #00ADB5;
+}
+
+.anchorItem {
+    margin: 6px 0px;
+    color: #EEEEEE;
+}
